@@ -10,3 +10,6 @@
     /* Helvetica Neue, Segoe UI, Roboto, Ubuntu,  */
     sans-serif !important;
 }
+.bg-img{
+    background-image: url(/images/hero\ bg.jpg);
+}
