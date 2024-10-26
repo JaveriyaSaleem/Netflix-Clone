@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <!-- header done  -->
+<body class="font-netflix">
+ 
      <section class="w-full h-[100vh] bg-cover bg-no-repeat bg-center " style="background-image: url(images/hero\ bg.jpg);" >
+           <!-- header   -->
         <div class="w-full h-[100vh] bg-[rgba(0,0,0,0.7)]">
       <header class="w-full max-w-5xl mx-auto">
-        <div class="grid grid-cols-2 grid-cols-[30%_auto] flex justify-between items-center">
-            <figure><img src="images/Netflix logo.png" alt="logo" class="w-[168px]"></figure>
-            <div class="flex item-start"><button class="bg-[#E80213] px-4 py-1 text-white rounded font-medium text-[14px]">Sign In</button></div>
+        <div class="grid grid-cols-2 grid-cols-[30%_auto] flex justify-between items-center p-4 sm:p-1">
+            <figure><img src="images/Netflix logo.png" alt="logo" class="w-[158px]"></figure>
+            <div class="flex item-start"><button class="bg-[#E80213] px-4 py-1 transition hover:scale-125 text-white rounded font-medium text-[14px]">Sign In</button></div>
         </div>
-
       </header>
+       
+           <!-- header done  -->
+            <section class="text-white text-center  w-1/2 mx-auto pt-5">
+                <h1 class="font-black text-[32px] sm:text-[59px]">Unlimited movies, TV shows, and more</h1>
+                <p class="text-[29px]">Starts at Rs 250. Cancel anytime.</p>
+                <p class="text-[16px]">Ready to watch? Enter your email to create or restart your membership.</p>
+            </section>
         </div>
 
 </section>
