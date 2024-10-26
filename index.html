@@ -6,12 +6,13 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="font-netflix">
  
-     <section class="w-full h-[100vh] bg-cover bg-no-repeat bg-center " style="background-image: url(images/hero\ bg.jpg);" >
+     <section class="w-full h-[120vh] bg-cover bg-no-repeat bg-center " style="background-image: url(images/hero\ bg.jpg);" >
            <!-- header   -->
-        <div class="w-full h-[100vh] bg-[rgba(0,0,0,0.7)]">
+        <div class="w-full h-[120vh] bg-[rgba(0,0,0,0.7)]">
       <header class="w-full max-w-5xl mx-auto">
         <div class="grid grid-cols-2 grid-cols-[30%_auto] flex justify-between items-center p-4 sm:p-1">
             <figure><img src="images/Netflix logo.png" alt="logo" class="w-[158px]"></figure>
@@ -20,10 +21,18 @@
       </header>
        
            <!-- header done  -->
-            <section class="text-white text-center  w-1/2 mx-auto pt-5">
-                <h1 class="font-black text-[32px] sm:text-[59px]">Unlimited movies, TV shows, and more</h1>
-                <p class="text-[29px]">Starts at Rs 250. Cancel anytime.</p>
-                <p class="text-[16px]">Ready to watch? Enter your email to create or restart your membership.</p>
+            <section class="text-white text-center w-full sm:w-3/5 mx-auto pt-5 flex flex-col justify-center ">
+                <h1 class="font-black text-[32px] sm:text-[42px] md:text-[59px]">Unlimited movies, TV shows, and more</h1>
+                <p class="text-[16px] sm:text-[29px]">Starts at Rs 250. Cancel anytime.</p>
+                <p class="text-[12px] sm:text-[16px]">Ready to watch? Enter your email to create or restart your membership.</p>
+
+                <div class="max-w-[700px] mx-auto p-2">
+                    <form class="grid grid-cols-1 md:grid-cols-[60%_auto] gap-3">
+                        <input type="text" class="text-[20px] rounded bg-transparent border sm:w-auto transition px-14 py-3 md:px-20 md:py-4" placeholder="Enter your email" >
+                        <div class="">
+                        <button class="flex flex-row items-center bg-[#E80213] px-[16px] py-2 md:px-14 md:py-4 text-white rounded font-medium text-[20px] text-left">Get Started <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 24 24" width="24" height="24" data-icon="ChevronRightStandard" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z" fill="currentColor"></path></svg></button> </div>
+                    </form>
+                </div>
             </section>
         </div>
 
