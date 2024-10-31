@@ -41,11 +41,26 @@
 <section class="bg-black">
  <section class="bg-black container max-w-5xl mx-auto pt-12 px-3">
 <h1 class="text-white text-[24px] font-bold">Trending Now</h1>
-<div class="grid grid-cols-4 py-5 gap-1">
-    <figure><img src="images/khel khel mein.webp" alt="" class="rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
-    <figure><img src="images/ctrl.webp" alt="" class="rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
-    <figure><img src="images/Animal.webp" alt="" class="rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
-    <figure><img src="images/money heist.webp" alt="" class="rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
+<div class="flex flex-row items-center">
+<!-- button previous -->
+<div><button id="previousBtn" class="text-white py-8 px-0 bg-[#272626] hover:bg-[#333333] rounded-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 24 24" width="24" height="24" data-icon="ChevronLeftStandard" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.41409 12L15.707 19.2928L14.2928 20.7071L6.29277 12.7071C6.10523 12.5195 5.99988 12.2652 5.99988 12C5.99988 11.7347 6.10523 11.4804 6.29277 11.2928L14.2928 3.29285L15.707 4.70706L8.41409 12Z" fill="currentColor"></path></svg></button></div>
+<!-- end  -->
+ <!-- images  -->
+<div class="grid grid-cols-10 py-5 gap-1 
+">
+    <figure class="order-1 orderSetting" ><img src="images/khel khel mein.webp" alt="" class=" rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
+    <figure class="order-2 orderSetting"><img src="images/ctrl.webp" alt="" class=" rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
+    <figure class="order-3 orderSetting"><img src="images/Animal.webp" alt="" class=" rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
+    <figure class="order-4 orderSetting"><img src="images/money heist.webp" alt="" class=" rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
+    <figure class="order-5 orderSetting"><img src="images/deceiful love.webp" alt="" class=" rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
+    <figure class="order-6 orderSetting"><img src="images/Elite.webp" alt="" class=" rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
+    <figure class="order-7 orderSetting"><img src="images/greatest of all time.webp" alt="" class=" rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
+    <figure class="order-8 orderSetting"><img src="images/Menendez brother.webp" alt="" class=" rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
+    <figure class="order-9 orderSetting"><img src="images/the great kapil sharma.webp" alt="" class=" rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
+    <figure class="order-10 orderSetting"><img src="images/ulajh.webp" alt="" class=" rounded hover:scale-[1.03] transition ease-out duration-300"></figure>
+</div>
+<!-- next button  -->
+<div><button id="nextBtn" class="text-white py-8 px-0 bg-[#272626] hover:bg-[#333333] rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="transition transform group-hover:-translate-x-[-10px]" fill="none" role="img" viewBox="0 0 24 24" width="24" height="24" data-icon="ChevronRightStandard" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z" fill="currentColor"></path></svg></button></div>
 </div>
  
  <!-- done  -->

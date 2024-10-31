@@ -11,3 +11,6 @@ body{
 .gradient-bg{
     background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
 }
+bg{
+    background-color: #272626;
+}
