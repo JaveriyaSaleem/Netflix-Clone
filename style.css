@@ -14,3 +14,10 @@ body{
 bg{
     background-color: #272626;
 }
+/* css I applied for swiper library  */
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
